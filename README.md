@@ -61,4 +61,3 @@ I got a lot of good practice with grids. One thing i will try to remember for th
 ## Author
 
 - Frontend Mentor - [@Akiz97](https://www.frontendmentor.io/profile/Akiz97)
-- GitHub - (https://github.com/Akiz-Ivanov)
