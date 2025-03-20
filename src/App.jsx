@@ -3,7 +3,7 @@ import Card from './Card'
 import data from './data'
 
 function App() {
-
+  
   const renderCards = data.map((item, index) => {
     const { name, header, content, border, img, backgroundColor, color, area } = item
     return (

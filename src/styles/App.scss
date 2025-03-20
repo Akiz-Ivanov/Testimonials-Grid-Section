@@ -14,12 +14,10 @@
         "three four four five";
 }
 
-
 /*==============================
   Media Queries
 ===============================*/
 @media (max-width: 1200px) {
-
     .wrapper {
         gap: 1rem;
     }
@@ -39,6 +37,12 @@
     }
 }
 
+@media (min-width: 500px) and (max-width: 767px) {
+    .wrapper {
+        max-width: fnc.rem(450);
+    }
+}
+
 @media (max-width: 767px) {
     .wrapper {
         grid-template-columns: 1fr;
@@ -50,11 +54,5 @@
             "three"
             "four"
             "five";
-    }
-}
-
-@media (min-width: 500px) and (max-width: 767px) {
-    .wrapper {
-        max-width: fnc.rem(450);
     }
 }
