@@ -20,10 +20,11 @@
 @media (max-width: 1200px) {
     .wrapper {
         gap: 1rem;
+        margin: 1.5rem;
     }
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1050px) {
     .wrapper {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(5, auto);
