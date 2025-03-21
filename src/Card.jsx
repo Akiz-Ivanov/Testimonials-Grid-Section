@@ -22,7 +22,7 @@ export default function Card({ name, border, img, header, children, backgroundCo
                 </div>
             </div>
             <h1 className="card__header">{header}</h1>
-            <p className="card__text">{children}</p>
+            <blockquote className="card__text">{children}</blockquote>
         </article>
     )
 }
